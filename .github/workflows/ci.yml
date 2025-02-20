@@ -1,14 +1,16 @@
-name: CI Pipeline for hplip-printer-app
+name: CI Pipeline for ps-printer-app
 
 on:
   push:
     branches:
       - main
       - master
+      - rudransh404
   pull_request:
     branches:
       - main
       - master
+      - rudransh404
   workflow_dispatch:
 
 jobs:
